@@ -1,0 +1,26 @@
+{
+    "name": "nextlevelweek2",
+    "version": "1.0.0",
+    "description": "Trilha Discovery nextLevelWeek 2 - 2020\r Confira o resultado no GitHub Pages!",
+    "scripts": {
+        "dev": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jhonathannc/nextlevelweek2.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jhonathannc/nextlevelweek2/issues"
+    },
+    "homepage": "https://github.com/jhonathannc/nextlevelweek2#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nunjucks": "^3.2.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
