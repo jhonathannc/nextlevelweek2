@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/guilhermecapitao/proffy-discovery)](https://github.com/guilhermecapitao/proffy-discovery/stargazers)<space> <space>[![GitHub license](https://img.shields.io/github/license/guilhermecapitao/proffy-discovery)](https://github.com/guilhermecapitao/proffy-discovery/blob/master/LICENSE)<space> <space>[![GitHub forks](https://img.shields.io/github/forks/guilhermecapitao/proffy-discovery)](https://github.com/guilhermecapitao/proffy-discovery/network)
+[![GitHub stars](https://img.shields.io/github/stars/jhonathannc/nextlevelweek2?color=orange)](https://github.com/jhonathannc/nextlevelweek2/stargazers)<space> <space>[![GitHub license](https://img.shields.io/github/license/jhonathannc/nextlevelweek2?color=darkgreen)](https://github.com/jhonathannc/nextlevelweek2/blob/master/LICENSE)<space> <space>[![GitHub forks](https://img.shields.io/github/forks/jhonathannc/nextlevelweek2)](https://github.com/jhonathannc/nextlevelweek2/network)<space> <space> ![](https://img.shields.io/github/repo-size/jhonathannc/nextlevelweek2)<space> <space> ![](https://img.shields.io/github/downloads/jhonathannc/nextlevelweek2/total)
 
 </div>
 
@@ -49,6 +49,12 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ⌨ Como executar o projeto
 
 ```bash
+# Instalar o NodeJS (Versão LTS)
+https://nodejs.org/en/
+
+# Instalar o GIT for Windows (avise-me se precisar instalar em outro S.O)
+https://gitforwindows.org/
+
 # Clonar o repositório
 git clone https://github.com/jhonathannc/nextlevelweek2
 
