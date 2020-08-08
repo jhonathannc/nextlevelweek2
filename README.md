@@ -18,9 +18,15 @@
 ---
 
 ## 🖥 Preview 
-
+- Desktop
 <p align="center">
-  <img src="https://ik.imagekit.io/capitao/Proffy/final_1596781937_urgAUoPC-.jpg" width="700" >
+  <img src="https://ik.imagekit.io/capitao/Proffy/final_1596781937_urgAUoPC-.jpg" width="500" >
+</p>
+<br>
+
+- Mobile
+<p align="center">
+  <img src="https://i.ibb.co/W50kHDg/mobile.png" width="500" >
 </p>
 
 ---
