@@ -1,6 +1,7 @@
 const express = require('express')
 const server = express()
 const nunjucks = require('nunjucks')
+const cors = require('cors')
 const { pageLanding, pageStudy, pageGiveClasses, saveClasses, pageLogin } = require('./pages')
 
 nunjucks.configure('src/views', {
@@ -9,6 +10,7 @@ nunjucks.configure('src/views', {
 })
 
 server
+    .use(cors())
     .use(express.urlencoded({ extended: true }))
     .use(express.static('public'))
     .get('/', pageLanding)
