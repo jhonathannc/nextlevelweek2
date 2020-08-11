@@ -23,7 +23,7 @@ db.then(async(db) => {
         time_to: 1220
     }]
 
-    return await createProffy(db, { proffyValue, classValue, classScheduleValues })
+    await createProffy(db, { proffyValue, classValue, classScheduleValues })
 
 
     //todos os proffys
@@ -50,6 +50,6 @@ db.then(async(db) => {
         AND class_schedule.time_from <= '1300'
         AND class_schedule.time_to > '1300'
     `)
-        // console.log(selectedClassesSchedules)
+    console.log(selectedClassesSchedules)
 
 })

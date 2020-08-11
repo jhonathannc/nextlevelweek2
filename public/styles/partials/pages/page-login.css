@@ -1,0 +1,11 @@
+#page-login {
+    background: var(--color-primary);
+}
+
+#page-login #container {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img {
+    height: 10rem;
+}

@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Trilha Discovery nextLevelWeek 2 - 2020\r Confira o resultado no GitHub Pages!",
     "scripts": {
-        "dev": "nodemon src/server.js"
+        "dev": "nodemon src/server.js",
+        "prod": "node src/server.js"
     },
     "repository": {
         "type": "git",

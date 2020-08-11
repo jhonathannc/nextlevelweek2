@@ -10,7 +10,8 @@ async function pageStudy(req, res) {
     const filters = req.query
 
     if (!filters.subject || !filters.weekday || !filters.time) {
-        return res.render('study.html', { filters, subjects, weekdays })
+        const welcome = true
+        return res.render('study.html', { subjects, weekdays, welcome })
     }
 
     //converter horas em minutos
@@ -92,9 +93,14 @@ async function saveClasses(req, res) {
 
 }
 
+function pageLogin(req, res) {
+    return res.render('login.html')
+}
+
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageLogin
 }
