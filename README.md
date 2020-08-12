@@ -76,6 +76,8 @@ npm run dev
 
 Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
 
+Ou se voce preferir, basta apenas acessá-lo neste link: https://getproffy.herokuapp.com/
+
 ---
 
 
