@@ -1,24 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Proffy</title>
+    <title>Proffy | Login</title>
+    <meta name="theme-color" content="#8257E5">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/partials/pages/page-login.css">
+    <link rel="stylesheet" href="/styles/partials/custom-checkbox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 </head>
 
 <body id="page-login">
+
     <div id="container">
+
         <div class="logo-container">
-            <img src="/images/landing.svg" alt="Plataforma de Estudos">
-            <p>Proffy</p>
-            <p>Sua plataforma de estudos online</p>
+            <img src="/images/logo.svg" alt="Mentor Logo">
+            <h2>Sua plataforma de estudos online</h2>
         </div>
 
-        <h5>aqui vai a form de login</h5>
+        <div class="form">
+
+            <form action="#" class="form-login">
+                <div class="alert-login">
+                    <img src="/images/icons/warning.svg" alt="Efetue Login">
+                    <p>Efetue login</p>
+                </div>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <input type="password" name="password" id="password" placeholder="senha" required>
+                <div class="options-login">
+                    <div class="keep-connected">
+                        <label class="checkbox-style">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="keep-connected-msg">
+                            <p>Manter</p>
+                            <p>conectado</p>
+                        </div>
+                    </div>
+                    <p class="forget-password">Esqueceu a senha?</p>
+                </div>
+                <button>CONFIRMAR</button>
+            </form>
+
+        </div>
+
+        <p>Conectar rede social</p>
+
+        <div class="social-logins">
+            <!-- facebook icon -->
+            <div class="svg-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="4.5rem" height="4.5rem" class=""><g><g><g>
+		        <path d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80    h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9C98A6"/>
+                </g></g></g>
+                </svg>
+            </div>
+            <!-- twitter icon -->
+            <div class="svg-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px"><g><g><g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568    C480.224,136.96,497.728,118.496,512,97.248z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9C98A6"/>
+                </g></g></g>
+                </svg>
+            </div>
+            <!-- google icon -->
+            <div class="svg-icon">
+                <svg fill="#9C98A6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+                    <path d="M 25.996094 48 C 13.3125 48 2.992188 37.683594 2.992188 25 C 2.992188 12.316406 13.3125 2 25.996094 2 C 31.742188 2 37.242188 4.128906 41.488281 7.996094 L 42.261719 8.703125 L 34.675781 16.289063 L 33.972656 15.6875 C 31.746094 13.78125 28.914063 12.730469 25.996094 12.730469 C 19.230469 12.730469 13.722656 18.234375 13.722656 25 C 13.722656 31.765625 19.230469 37.269531 25.996094 37.269531 C 30.875 37.269531 34.730469 34.777344 36.546875 30.53125 L 24.996094 30.53125 L 24.996094 20.175781 L 47.546875 20.207031 L 47.714844 21 C 48.890625 26.582031 47.949219 34.792969 43.183594 40.667969 C 39.238281 45.53125 33.457031 48 25.996094 48 Z"/>
+                </svg>
+            </div>
+
+            <!-- <img src="/images/icons/twitter.svg" alt="Twitter Login">
+            <img src="/images/icons/google.svg" alt="Google Login"> -->
+        </div>
+
+        <div class="infos-login">
+            <p>Politica de Privacidade • Termos de uso</p>
+            <div class="creator-link">
+                <p>Template Login desenvolvido por: </p>
+                <a href="https://github.com/jhonathannc"> Jhonathan Candeu</a>
+            </div>
+        </div>
     </div>
+
+
 </body>
 
 </html>
