@@ -18,4 +18,4 @@ server
     .get('/give-classes', pageGiveClasses)
     .post('/save-classes', saveClasses)
     .get('/login', pageLogin)
-    .listen(process.env.PORT || 5500)
+    .listen(process.env.PORT || 5550)
