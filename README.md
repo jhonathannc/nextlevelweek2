@@ -74,11 +74,14 @@ npm i
 npm run dev
 ```
 
-Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+Feito isso, abra o seu navegador e acesse `http://localhost:5550/`
 
 Ou se voce preferir, basta apenas acessá-lo neste link: https://getproffy.herokuapp.com/
 
 ---
 
+Atualizacao 25/06/21: Estava com erro no sqlite-async , foi atualizado. Obrigado: [Caua Menezes](https://github.com/menezescaua)
+
+---
 
 Desenvolvido com 💜 por RocketSeat
